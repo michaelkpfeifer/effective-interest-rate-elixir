@@ -11,9 +11,9 @@ can find it.
 
 # Data Structures
 
-A payment is a tuple '{amount, date}' consisting of the amount of the
+A payment is a tuple `{amount, date}` consisting of the amount of the
 payment and the date of the payment. For example,
-'{-2000, ~D[2015-01-01]}' represents a payment of -2000 at January 01,
+`{-2000, ~D[2015-01-01]}` represents a payment of -2000 at January 01,
 2015. A series of payments is represented as a list of payments.
 
 # Example
