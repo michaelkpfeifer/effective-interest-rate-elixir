@@ -36,3 +36,11 @@ iex(3)> EffectiveInterestRate.effective_interest_rate(payments_with_date)
 0.06394102980498531
 iex(4)>
 ```
+
+# Tests
+
+Simply run
+
+    $ mix test
+
+to run the tests.
