@@ -4,7 +4,7 @@ defmodule EffectiveInterestRate.Mixfile do
   def project do
     [
       app: :effective_interest_rate,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.5",
       deps: deps()
     ]
