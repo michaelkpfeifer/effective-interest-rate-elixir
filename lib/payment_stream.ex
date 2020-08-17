@@ -45,8 +45,8 @@ defmodule PaymentStream do
   original payment stream is the root of the `npv` function.
 
   In general, there is no closed formula for the computation of the
-  root of `npv`. However, given a "reasonable" start value, Newton's
-  method converges very fast to an approximation.
+  roots of `npv`. However, given a "reasonable" start value, Newton's
+  method converges very fast to the wanted root.
 
   Newton's method requires the computation of the derivative `npv'` of
   `npv`.  Fortunately, `npv'` can be easily written in a closed form:
