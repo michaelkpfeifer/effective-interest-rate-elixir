@@ -93,20 +93,6 @@ defmodule PaymentStreamTest do
       assert_in_delta(npv.(0.0), 200.0, 1.0e-9)
     end
 
-    test "effective interest rate for a payment stream with an interest rate of 0 is 0" do
-      payment_1 = {-1000, ~D[2019-01-01]}
-      payment_2 = {1500, ~D[2019-04-04]}
-      payment_3 = {-2000, ~D[2019-07-07]}
-      payment_4 = {1500, ~D[2019-10-10]}
-
-      npv =
-        [payment_1, payment_2, payment_3, payment_4]
-        |> PaymentStream.to_relative_payment_stream()
-        |> PaymentStream.net_present_value()
-
-      assert_in_delta(npv.(0.0), 0.0, 1.0e-9)
-    end
-
     test "net_present_value/1 returns the expected manually computed result" do
       payment_1 = {-1000, ~D[2019-01-01]}
       payment_2 = {500, ~D[2020-01-01]}
