@@ -1,5 +1,5 @@
 defmodule EffectiveInterestRate do
-  @newton_start_value -0.75
+  @start_value -0.75
   @max_iteration_difference 1.0e-9
   @max_iterations 64
 
@@ -36,7 +36,7 @@ defmodule EffectiveInterestRate do
     NewtonIteration.iterate(
       PaymentStream.net_present_value(relative_payment_stream),
       PaymentStream.net_present_value_derivative(relative_payment_stream),
-      @newton_start_value,
+      @start_value,
       @max_iteration_difference,
       @max_iterations
     )
