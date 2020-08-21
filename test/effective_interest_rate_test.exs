@@ -10,7 +10,7 @@ defmodule EffectiveInterestRateTest do
     assert_in_delta(0.0, effective_interest_rate, 1.0e-6)
   end
 
-  test "effective interest rate is correct has the expected sign in a simple case" do
+  test "effective interest rate has the expected sign in a simple case" do
     payments = [
       {2000, ~D[2013-06-01]},
       {-1000, ~D[2014-06-01]},
