@@ -23,7 +23,7 @@ defmodule PaymentStream do
   `r_k` is the difference of `t_k` and `t_f` "expressed in years".
 
   More precisely, `r_k` is computed as follows: Let `t_f` be the
-  `d_f`th day in a year`y_f` and let `t_k` be the `d_k`th day in year
+  `d_f`th day in a year `y_f` and let `t_k` be the `d_k`th day in year
   `y_k`. (Days are indexed starting at `0`. Jan 01 is day `0`.)  Let
   `D(y)` denote the number of days in a year `y`. For a leap year `y`,
   `D(y)` is 366. Otherwise, `D(y)` is 365. Then
