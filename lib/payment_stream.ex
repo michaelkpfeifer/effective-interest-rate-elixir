@@ -59,7 +59,7 @@ defmodule PaymentStream do
 
   @doc ~S"""
 
-  Finds the earliest payment in a payment stream.
+  Finds the earliest payment in a payment stream
 
   ## Examples
 
@@ -76,7 +76,7 @@ defmodule PaymentStream do
 
   @doc ~S"""
 
-  Converts a payment stream to a relative payment stream.
+  Converts a payment stream to a relative payment stream
 
   ## Examples
 
@@ -114,7 +114,7 @@ defmodule PaymentStream do
   @doc ~S"""
 
   Computes the net present value function `npv`of a relative payment
-  stream.
+  stream
 
   ## Examples
 
@@ -162,7 +162,7 @@ defmodule PaymentStream do
   @doc ~S"""
 
   Computes the derivative `npv'` of the net present value function of
-  a relative payment stream.
+  a relative payment stream
 
   ## Examples
 

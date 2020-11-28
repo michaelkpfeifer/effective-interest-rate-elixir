@@ -8,7 +8,7 @@ defmodule NewtonIteration do
 
   @doc ~S"""
 
-  Runs Newton's iteration.
+  Runs Newton's iteration
 
   `f` is an anonymous function of one real variable and `fp` is the
   derivative of `f`.
@@ -25,7 +25,7 @@ defmodule NewtonIteration do
   `max_iteration_difference`, then `iterate/5` returns `{:ok, x_k}`
   where `x_k` is the latest value produced by the iteration.
 
-  If the absolute values of the difference between two consecutive
+  If the absolute value of the difference between two consecutive
   values after `max_iterations` is still larger than
   `max_iteration_difference`, then `iterate/5` returns `:error`.
 
@@ -46,7 +46,7 @@ defmodule NewtonIteration do
     ```
 
   The roots of the quadratic function `fn x -> x * x - 4 end` are `2`
-  and `-2` but `4` iterations are not sufficient to compute the root
+  and `-2` but `4` iterations are not sufficient to compute a root
   with the required accuracy.
 
     ```

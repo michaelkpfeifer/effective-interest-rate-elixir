@@ -10,7 +10,7 @@ defmodule EffectiveInterestRate do
   case.
 
   Details about payment streams can be found in the documentation of
-  the `PaymentStream` module.
+  the PaymentStream module.
 
   """
 
