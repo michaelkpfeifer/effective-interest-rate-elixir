@@ -36,7 +36,7 @@ iex(2)> EffectiveInterestRate.effective_interest_rate(payments)
 
 ### Documentation
 
-Run`mix docs`
+Run `mix docs`
 
 ### Tests
 
