@@ -1,8 +1,8 @@
 ### Introduction
 
-The EffectiveInterestRate module provides a function for computing the
-effective interest rate of a stream of payments in a very general
-case.
+The EffectiveInterestRate module provides the
+`effective_interest_rate` function for computing the effective
+interest rate of a stream of payments in a very general case.
 
 ### Payment Streams
 
